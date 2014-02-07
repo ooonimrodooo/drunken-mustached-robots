@@ -47,6 +47,7 @@ public class MainActivity extends Activity implements OnClickListener{
         btnSub = (Button) findViewById(R.id.btnSub);
         btnMult = (Button) findViewById(R.id.btnMult);
         btnDiv = (Button) findViewById(R.id.btnDiv);
+        btnOne = (Button) findViewById(R.id.btnOne);
         tvResult = (TextView) findViewById(R.id.tvResult);
         
         btnAdd.setOnClickListener((OnClickListener) this);
